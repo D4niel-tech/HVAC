@@ -1,0 +1,45 @@
+<index homepage html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HinH Homepage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>HinH - Your Tech Source</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Welcome to HinH!</h2>
+        <p>Your one-stop shop for all things technology. Find the latest and greatest parts for your PC!</p>
+        <button id="exploreBtn">Explore Our Products</button>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="featured">
+        <h3>Featured Products</h3>
+        <div id="product-list">
+            <!-- Products will be dynamically inserted by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 HinH. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to the external JS file -->
+</body>
+</html>
